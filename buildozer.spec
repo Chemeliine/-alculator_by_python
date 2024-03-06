@@ -7,7 +7,7 @@ title = ALTAN Calculator
 package.name = calculator
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.novfensec
+package.domain = org.novfensec 
 
 # (str) Source code where the main.py live
 source.dir = .
