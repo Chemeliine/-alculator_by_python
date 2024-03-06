@@ -21,6 +21,8 @@ source.include_patterns = data/*.png, sound/*.ogg
 # (str) Application versioning (method 1)
 version = 0.1
 
+docker run -it -v "$(pwd)":/home/user/hostcwd kivy/buildozer android debug
+
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
 requirements = python3,kivy
